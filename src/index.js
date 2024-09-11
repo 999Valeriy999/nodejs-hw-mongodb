@@ -12,7 +12,9 @@
 // bootstrap();
 import { initMongoConnection } from './db/initMongoConnection.js';
 import { setupServer } from './server.js';
+import express from 'express';
 
+const app = express();
 const bootstrap = async () => {
   try {
     await initMongoConnection();
@@ -23,3 +25,5 @@ const bootstrap = async () => {
 };
 
 bootstrap();
+
+
