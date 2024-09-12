@@ -10,7 +10,7 @@
 // };
 
 // bootstrap();
-import { initMongoConnection } from './db/initMongoConnection.js';
+import { initMongoConnection } from '../db/initMongoConnection.js';
 import { setupServer } from './server.js';
 import express from 'express';
 

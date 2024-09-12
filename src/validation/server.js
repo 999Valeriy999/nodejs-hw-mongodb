@@ -1,7 +1,7 @@
 
 import express from 'express';
 
-import { newContact } from './models/contacts.js';
+import { newContact } from '../models/contacts.js';
 
 export const  setupServer = async () => {
   try {
